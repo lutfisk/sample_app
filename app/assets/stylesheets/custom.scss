@@ -35,9 +35,7 @@ textarea {
 }
 
 
-
 /* typography */
-
 h1, h2, h3 h4, h5, h6 {
     line-height: 1;
 }
@@ -116,7 +114,6 @@ footer {
 }
 
 
-
 /* sidebar */
 aside { 
     section.user_info {
@@ -154,7 +151,6 @@ aside {
 
 
 /* forms */ 
-
 input, textarea, select, .uneditable-input {
     border: 1px solid #bbb;
     width: 100%;
@@ -179,4 +175,17 @@ input {
     .form-control {
         color: #a94442;
     }
+}
+
+.checkbox {
+    margin-top: -10px; 
+    margin-bottom: 10px; 
+    span {
+        margin-left: 20px;
+        font-weight: normal;
+    }
+}
+
+#session_remember_me { 
+    width: auto; margin-left: 0;
 }
