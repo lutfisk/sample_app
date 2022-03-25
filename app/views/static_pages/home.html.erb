@@ -20,13 +20,12 @@
     <div class="center jumbotron">
         <h1>Welcome to the Sample App</h1>
         
-        <h2>This is the home page for the <a href="https://www.railstutorial.org/">
-        Ruby on Rails Tutorial</a> sample application.
-        </h2>
+        <h2>This is the home page for a twitter clone sample application. </h2>
 
         <%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary" %>
     </div>
-
-    <%= link_to image_tag("rails.png", alt: "Rails logo"), 'http://rubyonrails.org/' %>
-    <%#= link_to image_tag("kitten.jpg", alt: "Cat logo") %> 
+    <div class="main_body">
+        <%= link_to image_tag("abstract.jpg", alt: "abs_logo"), signup_path, class: "abstract_logo" %> 
+        <h1 class="logo_text">Sign up now to get started with the twitter clone and try out the webiste!</h1>
+    </div>    
 <% end %>
